@@ -11,8 +11,7 @@
 
 </style>
 <section>
-    <div class=""
-        style="background-image: url('../images/heroPage.png'); background-size: cover; object-fit: cover; height: 100vh;">
+    <div style="background-image: url('../images/heroPage.png'); background-size: cover; object-fit: cover; height: 100vh;">
         <div class="d-flex justify-content-center align-content-center flex-column text-center h-100 w-100 p-5">
             <div class="d-flex justify-content-center mx-auto flex-column">
                 <h1 class="hero-title text-primary my-auto">SIBK
