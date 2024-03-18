@@ -12,6 +12,7 @@
         height: auto;
         flex-shrink: 0;
         margin: 0 auto;
+        overflow-x: auto;
     }
 </style>
 
