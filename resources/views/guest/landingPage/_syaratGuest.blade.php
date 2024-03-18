@@ -7,18 +7,16 @@
         </div>
         <div class="col-md-6 d-flex flex-column justify-content-center">
             <div class="mt-4">
-              <p class="fs-5" style="text-align: left; font-weight: 600; color: #4B7FC5">
-                Beasiswa adalah bantuan yang diberikan kepada mahasiswa sebagai bentuk apresiasi prestasi mahasiswa ataupun berupa bantuan Biaya Pendidikan bagi mahasiswa yang mempunyai keterbatasan finansial.
-              </p>
-              <p class="fs-5" style="text-align: left; font-weight: 600; color: #4B7FC5">
-                Paket Beasiswa adalah sebuah penawaran Beasiswa dengan syarat dan ketentuan yang berlaku.
-              </p>
-              <p class="fs-5" style="text-align: left; font-weight: 600; color: #4B7FC5">
-                Pelamar/Pendaftar Beasiswa adalah seseorang yang membutuhkan Dukungan biaya pendidikan dan biaya penunjang pendidikan baik yang telah terdaftar sebagai Mahasiswa
-              </p>
-              <p class="fs-5" style="text-align: left; font-weight: 600; color: #4B7FC5">
-                Penerima Beasiswa adalah Pelamar/Pendaftar Beasiswa yang sudah disetujui oleh Pengelola dan Pendonor dari suatu Paket Beasiswa.
-              </p>
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item list-group-item-primary">Siswa SMA/SMK/MA sederajat usia maksimal 20 tahun</li>
+                    <li class="list-group-item list-group-item-primary">Mengikuti proses seleksi pada gelombang yang sedang dibuka</li>
+                    <li class="list-group-item list-group-item-primary">Melengkapi berkas wajib (KTP/Kartu Pelajar, KK, dan Raport).</li>
+                    <li class="list-group-item list-group-item-primary">Harus melampirkan bukti prestasi juara tingkat kota / provinsi</li>
+                    <li class="list-group-item list-group-item-primary">Tidak buta warna untuk program studi Teknik Elektro, Teknik Mesin, dan Teknik Sipil.</li>
+                    <li class="list-group-item list-group-item-primary">Berkas pendafaran diunggah secara online di website ini</li>
+                    <li class="list-group-item list-group-item-primary">Tim Seleksi akan langsung menseleksi dari berkas yang Anda upload dan keputusan Tim Seleksi tidak dapat diganggu gugat.</li>
+                    <li class="list-group-item list-group-item-primary">Semua pengumuman beasiswa langsung dapat dilihat pada tanggal kelulusan setiap gelombang.</li>
+                  </ol>
             </div>
         </div>
 
