@@ -22,6 +22,14 @@
         color: #D48E06 !important;
     }
 
+    table th {
+        text-align: center;
+    }
+
+    table td {
+        text-align: center;
+    }
+
 </style>
 
     <div class="container-lg mt-8">
