@@ -1,0 +1,13 @@
+.active {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #004aad;
+}
+
+.nav-link::before,
+.nav-link::after,
+.nav-link {
+    border-radius: 10px;
+}
