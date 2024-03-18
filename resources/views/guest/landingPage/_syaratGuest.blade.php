@@ -1,9 +1,12 @@
 <section class="bg-white px-2">
     <div class="container-lg py-10 px-4">
       <div class="row">
+        <h1 class="text-primary mb-4 text-center" style="font-weight: 800;">Syarat & Ketentuan</h1>
+        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+            <img src="{{ asset('images/syarat.png') }}" alt="logo" width="75%" class="mt-3">
+        </div>
         <div class="col-md-6 d-flex flex-column justify-content-center">
             <div class="mt-4">
-              <h1 class="text-primary mb-4" style="font-weight: 800;">Deskripsi</h1>
               <p class="fs-5" style="text-align: left; font-weight: 600; color: #4B7FC5">
                 Beasiswa adalah bantuan yang diberikan kepada mahasiswa sebagai bentuk apresiasi prestasi mahasiswa ataupun berupa bantuan Biaya Pendidikan bagi mahasiswa yang mempunyai keterbatasan finansial.
               </p>
@@ -18,9 +21,7 @@
               </p>
             </div>
         </div>
-        <div class="col-md-6 d-flex flex-column justify-content-center">
-            <img src="{{ asset('images/deskripsi-image.png') }}" alt="logo" class="mt-3">
-        </div>
+
       </div>
     </div>
   </section>
