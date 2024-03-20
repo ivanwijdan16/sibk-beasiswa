@@ -5,8 +5,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use App\Models\ipk;
 
-return new class extends Migration
-{
+return new class extends Migration {
     /**
      * Run the migrations.
      */
@@ -20,39 +19,33 @@ return new class extends Migration
         });
 
         ipk::create([
-            'nim'=>'351050020',
-            'ipk'=>2.4
+            'nim' => '21102072',
+            'ipk' => 2.4
         ]);
 
         ipk::create([
-            'nim'=>'351050021',
-            'ipk'=>3.4
+            'nim' => '21102073',
+            'ipk' => 3.4
         ]);
 
         ipk::create([
-            'nim'=>'351050022',
-            'ipk'=>3.2
+            'nim' => '21102074',
+            'ipk' => 3.2
         ]);
 
         ipk::create([
-            'nim'=>'351050023',
-            'ipk'=>2.2
+            'nim' => '21102075',
+            'ipk' => 2.2
         ]);
 
         ipk::create([
-            'nim'=>'351050024',
-            'ipk'=>2.9
+            'nim' => '21102076',
+            'ipk' => 2.9
         ]);
-
-        ipk::create([
-            'nim'=>'351050025',
-            'ipk'=>3.9
-        ]);
-
 
     }
 
-  
+
     public function down(): void
     {
         Schema::dropIfExists('ipks');
