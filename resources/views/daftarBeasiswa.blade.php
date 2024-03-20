@@ -100,7 +100,7 @@ input[type=number]::-webkit-outer-spin-button {
             <div class="form-group row mb-5">
               <label for="beasiswa" class="col-sm-3 col-form-label fw-bold">Pilihan Beasiswa</label>
               <div class="col-sm-9">
-                <select class="form-control " id="beasiswa" name="beasiswa" required>
+                <select class="form-control " id="beasiswa" name="beasiswa" required disabled>
                   <option value="">Pilih Jenis Beasiswa</option>
                   <option value="akademik">Beasiswa Akademik</option>
                   <option value="non_akademik">Beasiswa Non Akademik</option>
@@ -131,6 +131,7 @@ input[type=number]::-webkit-outer-spin-button {
 </div>
 @endsection
 
+<!-- script untuk kondisi elemen bisa diklik atau tidak apabila ipk dibawah 3 atau diatas 3 -->
 @push('script')
 <script type="module">
 $("#nim").on('keyup', async () => {
@@ -146,6 +147,7 @@ let cekipk = async (nim) => {
       console.log(data);
       $("#berkas").prop('disabled', true)
       $("#submit-daftar").prop('disabled', true)
+      $("#beasiswa").prop('disabled', true)
       if (data.status) {
         $("#dt-s").addClass("d-none")
         $("#dt-t").removeClass("d-none")
@@ -153,6 +155,7 @@ let cekipk = async (nim) => {
         if (data.ipk > 3) {
           $("#berkas").prop('disabled', false)
           $("#submit-daftar").prop('disabled', false)
+          $("#beasiswa").prop('disabled', false)
         }
 
       } else {
@@ -160,6 +163,7 @@ let cekipk = async (nim) => {
         $("#dt-t").addClass("d-none")
 
       }
+
       $("#ipk").val(data.ipk)
     }
   })
