@@ -17,6 +17,10 @@
         @yield('content')
     </main>
     @include('layouts._footer')
+    @stack('script')
+
+    
+
 </body>
 
 </html>

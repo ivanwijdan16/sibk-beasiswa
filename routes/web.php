@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DaftarBeasiswaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('daftarBeasiswa');
-});
+Route::get('/', [DaftarBeasiswaController::class, 'index']);
+Route::get('daftar', [DaftarBeasiswaController::class, 'daftar_index']);
+Route::get('cekipk/{nim}', [DaftarBeasiswaController::class, 'cek_ipk']);
+Route::post('daftar', [DaftarBeasiswaController::class, 'daftar']);
+Route::get('hasil', [DaftarBeasiswaController::class, 'hasil']);
